@@ -1,0 +1,84 @@
+:root {
+	--theme-main_nav: 57, 61, 70 !important;
+    --theme-main_nav_tab: 57, 61, 70 !important; 
+	--theme-page_background: 33, 35, 40 !important;
+    --container--width: 1340px !important; 		/* Требуется подгонка значения (ширина форума) */
+    --theme-section_title: 57, 61, 70 !important;
+    --theme-widget_title_bar: 92, 98, 114 !important;
+    --theme-area_background_reset: 45, 48, 55 !important;
+	/*--theme-area_background_reset: 57, 61, 70 !important;*/
+    --theme-important_button: 92, 98, 114 !important;
+	--theme-area_background_dark: 57, 61, 70 !important;
+	--theme-area_background_light: 48, 51, 59 !important;
+	/* --theme-area_background: 45, 48, 55 !important; */
+	--theme-area_background: 57, 61, 70 !important;
+	--theme-comment_count: 57, 61, 70 !important;
+	--theme-secondary_title: 92, 98, 114 !important;
+	--theme-text_color: 235, 250, 250 !important;
+	--theme-very_light_button: 92, 98, 114 !important;
+	--theme-primary_button: 57, 61, 70 !important;
+	--theme-light_button: 57, 61, 70 !important;
+	--theme-timeline_color: 92, 98, 114 !important;
+	--theme-button_bar: 33, 35, 40 !important;
+	--theme-tab_background: 57, 61, 70 !important;
+	--theme-tag: 33, 35, 40 !important;
+	--theme-selected: 57, 61, 70 !important;
+	--theme-pagination_active: 57, 61, 70 !important;
+	--breadcrumb--background: rgb(45, 48, 55) !important;  /* Нужно удалить */ 
+}
+
+.animate-header {
+    position: static !important;
+}
+
+.animate-header__background-panel {
+    position: fixed !important;
+    height: 100% !important;
+}
+
+.animate-header__background-panel--1 {
+	width: 100% !important;
+    background: none !important;
+}
+
+.animate-header__background-panel--2 {
+    width: 100% !important;
+    background: url('chrome-extension://__MSG_@@extension_id__/images/zealotBG.jpg') !important;
+}
+
+ #ipsLayout_contentArea {
+    display: block !important;
+    width: auto !important;
+    background: rgb(var(--theme-page_background)) !important;
+    padding: 15px !important;
+    border-radius: 4px !important;
+}
+
+#ipsLayout_header {
+    border-bottom: 0px solid rgba(255,255,255,0.2) !important;
+}
+
+.cProfileSidebarBlock,
+.cProfileRepScore {
+	border-radius: 4px;	
+}
+
+[data-focus-scheme="dark"] .ipsTooltip {
+    background: rgb(var(--theme-widget_title_bar)) !important;
+    border-color: rgb(var(--theme-widget_title_bar)) !important;
+}
+
+#elAjaxLoading {
+    background: rgb(var(--theme-important_button)) !important;
+}
+
+.ipsTag_remove::before {
+    background-color: rgba(var(--theme-important_button),.3);
+}
+
+html body .animate-header__background-panel--2,
+html body [style*="background-panel-2"] {
+    animation: none !important;
+    -webkit-animation: none !important;
+    transform: none !important;         
+}

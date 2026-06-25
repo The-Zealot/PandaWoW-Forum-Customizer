@@ -1,0 +1,76 @@
+:root {
+	--custom-reputation: 34, 163, 83;
+	--custom-reputation_font: 222, 222, 222;
+	
+	--theme-header: 21, 21, 21 !important;
+	--theme-main_nav_tab: 21, 21, 21 !important;
+	--theme-main_nav: 32, 32, 32 !important;
+	--theme-area_background: 32, 32, 32 !important;
+	--theme-area_background_dark: 32, 32, 32 !important;
+	--theme-area_background_light: 42, 42, 42 !important;
+	--theme-area_background_reset: 32, 32, 32 !important;
+	--theme-button_bar: 42, 42, 42 !important;
+	--theme-comment_count:  122, 122, 122 !important;
+	--theme-important_button: 32, 32, 32 !important;
+	--theme-comment_count_font: 222, 222, 222 !important;
+	--theme-link: 222, 222, 222 !important;
+	--theme-header_text: 222, 222, 222 !important;
+	--theme-main_nav_font: 222, 222, 222 !important;
+	--theme-main_nav_tab_font: 222, 222, 222 !important;
+	--theme-mentions: 137, 173, 217 !important;
+	--theme-tab_background: 42, 42, 42 !important;
+	--theme-tag: 55, 55, 55 !important;
+	--theme-tag_font: 222, 222, 222 !important;
+	--theme-text_color: 222, 222, 222 !important;
+	--theme-text_dark: 222, 222, 222 !important;
+	--theme-text_light: 222, 222, 222 !important;
+	--theme-widget_title_font: 222, 222, 222 !important;
+	--theme-widget_title_bar: 21, 21, 21 !important;
+	--theme-section_title: 32, 32, 32 !important;
+	--theme-section_title_font: 222, 222, 222 !important;
+	--theme-selected: 55, 55, 55 !important;
+	--theme-page_background: 21, 21, 21 !important;
+	--theme-post_highlight: 55, 55, 55 !important;
+	--theme-footer_text: 222, 222, 222 !important;
+	--theme-primary_button: 32, 32, 32 !important;
+	--theme-primary_button_font: 222, 222, 222 !important;
+	--theme-light_button: 42, 42, 42 !important;
+	--theme-light_button_font: 222, 222, 222 !important;
+	--theme-link_button: 137, 173, 217 !important;
+    --theme-link_hover: 170, 215, 225 !important;
+	--theme-timeline_color: 122, 122, 122 !important;
+	--theme-very_light_button: 55, 55, 55 !important;
+    --theme-very_light_button_font: 222, 222, 222 !important;
+	
+	--theme-comment_count: 122, 122, 122 !important;
+    --theme-comment_count_font: 32, 32, 32 !important;
+	
+	--theme-post_highlight_border: 219, 176, 18 !important;
+	
+	--positive-dark: #2bb577 !important;
+    --positive-light: #2d3b35 !important;
+}
+
+#ipsLayout_body {
+    background: rgb(var(--theme-main_nav_tab)) !important;
+}
+
+#elSearch {
+    background: rgb(var(--theme-header)) !important;
+    color: rgb(var(--theme-text_light)) !important;
+}
+
+.cProfileRepScore_positive {
+    background: rgb(var(--custom-reputation)) !important;
+    color: rgb(var(--custom-reputation_font)) !important;
+}
+
+.cProfileSidebarBlock,
+.cProfileRepScore {
+	border-radius: 4px !important;	
+}
+
+
+.ipsApp .cke_inner {
+    background-color: rgb(175, 175, 175) !important;
+}

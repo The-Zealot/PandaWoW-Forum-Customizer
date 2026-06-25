@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+	:root {
+    --bg-color: #0f172a;          
+    --text-main: #e2e8f0;         
+    --accent-blue: #38bdf8;      
+    --glass-bg: rgba(15, 23, 42, 0.7); 
+    --glass-border: rgba(56, 189, 248, 0.2); 
+    --card-bg: rgba(30, 41, 59, 0.5); 
+    --nav-bg: rgba(15, 23, 42, 0.6);
+    --active-button: rgba(21, 52, 60, 0.6);	
+	}
+  
+    body { 
+		width: 180px;
+		padding: 10px;
+		font-family: sans-serif;
+		background: var(--nav-bg);
+		
+		padding-top: var(--nav-offset);
+		font-family: 'Roboto', sans-serif;
+		background-color: var(--bg-color);
+		background-image: radial-gradient(circle at top right, #1e293b 0%, #0f172a 40%, #020617 100%);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		color: var(--text-main);
+		line-height: 1.6;
+		transition: background-image 1s;
+	}
+    button { 
+		display: block; 
+		width: 100%; 
+		margin: 5px 0; 
+		padding: 8px; 
+		cursor: pointer;
+		
+		position: sticky;
+		justify-content: center;
+		backdrop-filter: blur(12px); 
+		-webkit-backdrop-filter: blur(12px);
+		border-radius: 16px;
+		border: 1px solid var(--glass-border);
+		z-index: 1000;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+		flex-wrap: wrap;
+		
+		background: var(--nav-bg);
+		text-decoration: none;
+		color: var(--accent-blue);
+		font-weight: 500;
+		padding: 8px 16px;
+		border-radius: 20px;
+		transition: all 0.3s ease;
+		font-size: 0.9rem;
+	}
+	button:hover { 
+		background: var(--accent-blue);
+		color: #0f172a; 
+		transform: translateY(-2px);
+		box-shadow: 0 4px 12px rgba(56, 189, 248, 0.4);
+	}
+	
+    .active { 
+		background-color: var(--active-button); 
+		color: var(--accent-blue); 
+	}
+    h3 { 
+		margin-top: 0; 
+	}
+  </style>
+</head>
+<body>
+  <h3>Выберите стиль:</h3>
+  
+  <div id="buttons-container"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

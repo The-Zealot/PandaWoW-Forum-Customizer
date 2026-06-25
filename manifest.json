@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "PandaWoW Forum Customizer",
+  "version": "1.3",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "description": "Plagin to customize PandaWoW forum",
+  "author": "The_Zealot",
+  "icons": {
+	"128": "images/icon128.png",
+	"16": "images/icon16.png",
+	"48": "images/icon48.png"
+  },
+  "background": {
+    "service_worker": "content.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+	"default_title": "Выбрать стиль",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://forum.pandawow.me/*"],
+	  "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["themes/*.css", "images/*.jpg", "images/*.png"],
+      "matches": ["https://forum.pandawow.me/*"]
+    }
+  ]
+}

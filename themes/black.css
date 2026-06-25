@@ -1,0 +1,95 @@
+:root {
+	--theme-main_nav: 24, 24, 26 !important;
+	--theme-main_nav_tab: 24, 24, 26 !important; 
+	--theme-page_background: 10, 10, 12 !important; 
+  
+	--theme-section_title: 24, 24, 26 !important;
+	--theme-widget_title_bar: 45, 45, 48 !important; 
+	--theme-important_button: 45, 45, 48 !important; 
+	--theme-area_background_reset: 18, 18, 20 !important; 
+	--theme-area_background_dark: 24, 24, 26 !important;
+	--theme-area_background_light: 21, 21, 24 !important;
+	--theme-area_background: 24, 24, 26 !important;
+	--theme-comment_count: 24, 24, 26 !important;
+	--theme-secondary_title: 60, 60, 65 !important; 
+	--theme-text_color: 240, 240, 245 !important; 
+	--theme-very_light_button: 45, 45, 48 !important;
+	--theme-primary_button: 24, 24, 26 !important;
+	--theme-light_button: 24, 24, 26 !important;
+	--theme-timeline_color: 45, 45, 48 !important; 
+	--theme-button_bar: 10, 10, 12 !important;
+	--breadcrumb--background: rgb(18, 18, 20) !important;    
+	
+	--search--background: 24, 24, 26 !important;
+	--theme-profile_header: 24, 24, 26 !important;
+	--theme-tab_background: 24, 24, 26 !important; 
+	--theme-selected: 24, 24, 26 !important; 
+	--theme-pagination_active: 24, 24, 26 !important; 
+	--theme-tag: 10, 10, 12 !important;
+}
+
+.focus-nav-bar {
+    background: rgba(var(--theme-main_nav)) !important;
+    background-image: none !important;
+}
+
+#elSearch, .focus-search:empty {
+    background: rgb(var(--theme-profile_header));
+}
+
+.animate-header {
+    position: static !important;
+}
+
+.animate-header__background-panel {
+    position: fixed !important;
+    height: 100% !important;
+}
+
+.animate-header__background-panel--1 {
+	width: 100% !important;
+    background: none !important;
+}
+
+.animate-header__background-panel--2 {
+    width: 100% !important;
+    background: url('') !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+
+ #ipsLayout_contentArea {
+    display: block !important;
+    width: auto !important;
+    background: rgb(var(--theme-page_background)) !important;
+    border-radius: 4px !important;
+}
+
+#ipsLayout_header {
+    border-bottom: 0px solid rgba(255,255,255,0.2) !important;
+}
+
+.cProfileSidebarBlock,
+.cProfileRepScore {
+	border-radius: 4px;	
+}
+
+[data-focus-scheme="dark"] .ipsTooltip {
+    background: rgb(var(--theme-widget_title_bar)) !important;
+    border-color: rgb(var(--theme-widget_title_bar)) !important;
+}
+
+#elAjaxLoading {
+    background: rgb(var(--theme-important_button)) !important;
+}
+
+.ipsTag_remove::before {
+    background-color: rgba(var(--theme-important_button),.3);
+}
+
+html body .animate-header__background-panel--2,
+html body [style*="background-panel-2"] {
+    animation: none !important;
+    -webkit-animation: none !important;
+    transform: none !important;         
+}

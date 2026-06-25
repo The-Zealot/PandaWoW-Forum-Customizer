@@ -1,0 +1,101 @@
+:root {
+	--theme-main_nav: 46, 31, 28 !important; 
+	--theme-main_nav_tab: 46, 31, 28 !important; 
+	--theme-page_background: 28, 20, 19 !important; 
+	--theme-section_title: 46, 31, 28 !important;
+	--theme-widget_title_bar: 153, 31, 23 !important; 
+	--theme-important_button: 153, 31, 23 !important;
+	--theme-area_background_reset: 38, 26, 24 !important;
+	--theme-area_background_dark: 46, 31, 28 !important;
+	--theme-area_background_light: 41, 29, 28 !important;
+	--theme-area_background: 46, 31, 28 !important;
+	--theme-comment_count: 46, 31, 28 !important;
+	--theme-secondary_title: 153, 31, 23 !important;
+	--theme-text_color: 242, 226, 201 !important; 
+	--theme-very_light_button: 153, 31, 23 !important;
+	--theme-primary_button: 46, 31, 28 !important;
+	--theme-light_button: 46, 31, 28 !important;
+	--theme-timeline_color: 153, 31, 23 !important;
+	--theme-button_bar: 28, 20, 19 !important;
+	--breadcrumb--background: rgb(38, 26, 24) !important;
+	--search--background: rgba(var(--theme-main_nav),0.7) linear-gradient(to bottom, rgba(var(--theme-main_nav),0.5) 0%, rgba(var(--theme-main_nav),0) 100%) !important;
+	--theme-profile_header: 46, 31, 28 !important;
+	--theme-tab_background: 46, 31, 28 !important;
+	--theme-selected: 46, 31, 28 !important;
+	--theme-brand_primary: 201, 23, 23 !important;
+	--theme-pagination_active: 46, 31, 28 !important; 
+	--theme-tag: 28, 20, 19 !important; 
+}
+
+.focus-nav-bar {
+    background: var(--search--background) !important;    
+}
+
+.focus-logo img {
+  box-sizing: border-box !important;
+  width: 400px !important;
+  height: 100px !important;
+  padding-left: 400px !important;
+
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/horde.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+
+.animate-header {
+    position: static !important;
+}
+
+.animate-header__background-panel {
+    position: fixed !important;
+    height: 100% !important;
+}
+
+.animate-header__background-panel--1 {
+	width: 100% !important;
+    background: none !important;
+}
+
+.animate-header__background-panel--2 {
+    width: 100% !important;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/hordeBG.png') !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+
+ #ipsLayout_contentArea {
+    display: block !important;
+    width: auto !important;
+    background: rgb(var(--theme-page_background)) !important;
+    padding: 15px !important;
+    border-radius: 4px !important;
+}
+
+#ipsLayout_header {
+    border-bottom: 0px solid rgba(255,255,255,0.2) !important;
+}
+
+.cProfileSidebarBlock,
+.cProfileRepScore {
+	border-radius: 4px;	
+}
+
+#elAjaxLoading {
+    background: rgb(var(--theme-important_button)) !important;
+}
+
+.ipsTag_remove::before {
+    background-color: rgba(var(--theme-important_button),.3);
+}
+
+[data-focus-scheme="dark"] .ipsTooltip {
+    background: rgb(var(--theme-widget_title_bar)) !important;
+    border-color: rgb(var(--theme-widget_title_bar)) !important;
+}
+
+html body .animate-header__background-panel--2,
+html body [style*="background-panel-2"] {
+    animation: none !important;
+    -webkit-animation: none !important;
+    transform: none !important;         
+}
