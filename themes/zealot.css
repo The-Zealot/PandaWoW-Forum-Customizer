@@ -44,6 +44,9 @@
 .animate-header__background-panel--2 {
     width: 100% !important;
     background: url('chrome-extension://__MSG_@@extension_id__/images/zealotBG.jpg') !important;
+	background-repeat: no-repeat!important;
+	background-size: cover !important;
+	background-attachment: fixed !important;
 }
 
  #ipsLayout_contentArea {
