@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PandaWoW Forum Customizer",
-  "version": "1.3",
+  "version": "1.5.1",
   "permissions": ["activeTab", "scripting", "storage"],
   "description": "Plagin to customize PandaWoW forum",
   "author": "The_Zealot",
@@ -22,7 +22,8 @@
     {
       "matches": ["https://forum.pandawow.me/*"],
 	  "js": ["content.js"],
-      "run_at": "document_start"
+      "run_at": "document_start",
+	  "all_frames": true
     }
   ],
   "web_accessible_resources": [
