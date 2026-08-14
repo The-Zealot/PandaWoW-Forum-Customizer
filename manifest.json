@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PandaWoW Forum Customizer",
-  "version": "1.5.1",
+  "version": "1.5.4",
   "permissions": ["activeTab", "scripting", "storage"],
   "description": "Plagin to customize PandaWoW forum",
   "author": "The_Zealot",

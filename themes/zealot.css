@@ -25,6 +25,7 @@
 	--theme-selected: 57, 61, 70 !important;
 	--theme-pagination_active: 57, 61, 70 !important;
 	--breadcrumb--background: rgb(45, 48, 55) !important;  /* Нужно удалить */ 
+	--theme-mentions: 92, 98, 114 !important;
 }
 
 .animate-header {
