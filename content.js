@@ -45,6 +45,48 @@ function initForumQuotes() {
     
     controls.append(customQuoteButton);
   });
+  
+  ////////////////////////////////////// THREAD SCROLLING //////////////////////////////////////
+  
+  function setVisibleElement(element) {
+	if (window.scrollY > 300) {
+		element.style.setProperty('display', 'block', 'important');
+	} else {
+		element.style.setProperty('display', 'none', 'important');
+	}
+  }
+    
+  if (!document.getElementById('pageUpButton')) {
+	const pageUpButton 		= document.createElement('button');
+	pageUpButton.innerHTML 	= '▲';
+	pageUpButton.id 		= 'pageUpButton';
+	pageUpButton.className 	= 'ipsButton ipsButton_veryLight ipsButton_small';
+    
+	setVisibleElement(pageUpButton);
+  
+	pageUpButton.style.setProperty('position', 'fixed', 'important');
+	pageUpButton.style.setProperty('bottom', '20px', 'important');
+	pageUpButton.style.setProperty('right', '20px', 'important');
+	pageUpButton.style.setProperty('border-radius', '50%', 'important');
+	pageUpButton.style.setProperty('width', '50px', 'important');
+	pageUpButton.style.setProperty('height', '50px', 'important');
+	pageUpButton.style.setProperty('padding', '0', 'important');
+  
+	document.body.appendChild(pageUpButton);
+  
+	pageUpButton.addEventListener('click', (e) => {
+		e.preventDefault();
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth'
+		});
+	});
+	
+	window.addEventListener('scroll', () => {
+		setVisibleElement(pageUpButton);
+	});
+  }
+	//////////////////////////////////////////////////////////////////////////////////////////////
 }
 
 window.addEventListener('load', initForumQuotes);
