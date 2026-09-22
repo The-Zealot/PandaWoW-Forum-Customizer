@@ -74,3 +74,18 @@
 .ipsApp .cke_inner {
     background-color: rgb(175, 175, 175) !important;
 }
+
+#exButtons {
+	font-weight: bold; 
+	background: rgb(var(--theme-primary_button)); 
+	color: rgb(var(--theme-very_light_button)); 
+	border: solid 1px rgb(var(--theme-very_light_button)); 
+	cursor: pointer;
+}
+
+#alertWidget {
+    background: rgb(var(--theme-main_nav)); 
+    color: rgb(var(--theme-text_color));
+    boxShadow: 0 4px 12px rgba(0,0,0,0.15);
+	border: 1px solid rgb(var(--theme-very_light_button));
+}
