@@ -34,6 +34,17 @@
     background-image: none !important;
 }
 
+.focus-logo img {
+  box-sizing: border-box !important;
+  width: 400px !important;
+  height: 90% !important; 
+  padding-left: 400px !important; 
+  
+  background-image: url("chrome-extension://__MSG_@@extension_id__/images/pandawowNoir.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+
 #elSearch, .focus-search:empty {
     background: rgb(var(--theme-profile_header));
 }
