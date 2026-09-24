@@ -1,0 +1,139 @@
+:root {
+	--theme-main_nav: 16, 44, 110 !important;
+	--theme-main_nav_tab: 16, 44, 110 !important;
+	--theme-main_nav_font: 226, 226, 226 !important;
+	--theme-page_background: 8, 22, 54 !important;
+	--theme-section_title: 16, 44, 110 !important;
+	--theme-widget_title_bar: 30, 75, 155 !important;
+	--theme-important_button: 242, 192, 27 !important; 
+	--theme-area_background_reset: 12, 33, 82 !important;
+	--theme-area_background_dark: 16, 44, 110 !important; 
+	--theme-area_background_light: 22, 60, 150 !important;
+	--theme-area_background: 16, 44, 110 !important;
+	--theme-comment_count: 16, 44, 110 !important;
+	--theme-secondary_title: 30, 75, 155 !important;
+	--theme-text_color: 219, 215, 195 !important;
+	--theme-very_light_button: 242, 192, 27 !important;
+	--theme-primary_button: 16, 44, 110 !important;
+	--theme-light_button: 16, 44, 110 !important; 
+	--theme-timeline_color: 242, 192, 27 !important;
+	--theme-button_bar: 8, 22, 54 !important;
+	--breadcrumb--background: rgb(12, 33, 82) !important;
+	--search--background: rgba(var(--theme-main_nav),0.7) linear-gradient(to bottom, rgba(var(--theme-main_nav),0.5) 0%, rgba(var(--theme-main_nav),0) 100%) !important;
+	--theme-profile_header: 16, 44, 110 !important;
+	--theme-tab_background: 16, 44, 110 !important;
+	--theme-selected: 16, 44, 110 !important;
+	--theme-brand_primary: 245, 190, 30 !important;
+	--theme-pagination_active: 16, 44, 110 !important;
+	--theme-tag: 8, 22, 54 !important;
+	--theme-mentions: 30, 75, 155 !important; 
+	--theme-very_light_button_font: 10, 10, 70 !important;
+	--theme-link: 226, 226, 226 !important;
+	/* --theme-text_light: 90, 100, 130 !important; */
+	--theme-text_light: 75, 100, 140 !important;
+	--theme-post_highlight: 142, 39, 39 !important;
+    --theme-post_highlight_border: 245, 36, 36 !important;
+	
+	
+	--trophy-first--background: rgb(var(--theme-important_button)) !important; 
+	--trophy-first--color: rgb(var(--theme-profile_header)) !important; 
+	--informational-dark: #454b6c !important; 
+	--informational-light: rgb(var(--theme-link)) !important;
+	/* --positive-light: rgb(var(--theme-profile_header)) !important; */
+	--positive-dark: rgb(var(--theme-widget_title_bar)) !important;
+}
+
+.focus-nav-bar {
+    background: var(--search--background) !important;    
+}
+
+.focus-logo img {
+  box-sizing: border-box !important;
+  width: 400px !important;
+  height: 100px !important;
+  padding-left: 400px !important;
+
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/alliance.png') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+
+.animate-header {
+    position: static !important;
+}
+
+.animate-header__background-panel {
+    position: fixed !important;
+    height: 100% !important;
+}
+
+.animate-header__background-panel--1 {
+	width: 100% !important;
+    background: none !important;
+}
+
+.animate-header__background-panel--2 {
+    width: 100% !important;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/images/allianceBG.jpg') !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+
+ #ipsLayout_contentArea {
+    display: block !important;
+    width: auto !important;
+    background: rgb(var(--theme-page_background)) !important;
+    padding: 15px !important;
+    border-radius: 4px !important;
+}
+
+#ipsLayout_header {
+    border-bottom: 0px solid rgba(255,255,255,0.2) !important;
+}
+
+.cProfileSidebarBlock,
+.cProfileRepScore {
+	border-radius: 4px;	
+}
+
+#elAjaxLoading {
+    background: rgb(var(--theme-important_button)) !important;
+}
+
+.ipsTag_remove::before {
+    background-color: rgba(var(--theme-important_button),.3);
+}
+
+[data-focus-scheme="dark"] .ipsTooltip {
+    background: rgb(var(--theme-widget_title_bar)) !important;
+    border-color: rgb(var(--theme-widget_title_bar)) !important;
+}
+
+html body .animate-header__background-panel--2,
+html body [style*="background-panel-2"] {
+    animation: none !important;
+    -webkit-animation: none !important;
+    transform: none !important;         
+}
+
+.ipsStreamItem_time {
+    color: rgb(var(--theme-main_nav)) !important;    
+}
+
+.ipsType_minorHeading {
+    color: rgb(var(--theme-link)) !important;
+}
+
+#exButtons {
+	font-weight: bold; 
+	background: rgb(var(--theme-primary_button)); 
+	color: #228746; 
+	border: solid 1px #228746; 
+	cursor: pointer;
+}
+
+#alertWidget {
+    background: rgb(var(--theme-main_nav)); 
+    color: rgb(var(--theme-text_color));
+    boxShadow: 0 4px 12px rgba(0,0,0,0.15);
+}

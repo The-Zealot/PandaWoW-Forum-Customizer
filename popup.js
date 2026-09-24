@@ -2,6 +2,7 @@ const THEMES = {
   'default': 'PandaWoW',
   'zealot': 'Zealot Animate',
   'horde': 'Орда Animate',
+  'alliance': 'Альянс Animate',
   'neon': 'Неон Animate',
   'forest': 'Природа Animate', 
   'black': 'Black Animate',
