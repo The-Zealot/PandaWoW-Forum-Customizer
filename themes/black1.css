@@ -70,17 +70,18 @@
 	border-radius: 4px !important;	
 }
 
-
 .ipsApp .cke_inner {
     background-color: rgb(175, 175, 175) !important;
 }
 
 #exButtons {
 	font-weight: bold; 
-	background: rgb(var(--theme-primary_button)); 
-	color: rgb(var(--theme-very_light_button)); 
-	border: solid 1px rgb(var(--theme-very_light_button)); 
+	background: transparent; 
+	color: rgb(var(--theme-footer_text)); 
+	border: solid 1px rgb(var(--theme-footer_text)); 
 	cursor: pointer;
+	padding: 7px;
+	border-radius: 10px;
 }
 
 #alertWidget {
@@ -88,4 +89,17 @@
     color: rgb(var(--theme-text_color));
     boxShadow: 0 4px 12px rgba(0,0,0,0.15);
 	border: 1px solid rgb(var(--theme-very_light_button));
+}
+
+.ipsQuote, .ipsSpoiler, .ipsStyle_spoiler {
+    background: rgb( var(--theme-area_background_light) ) !important;
+    border: 4px solid rgba( var(--theme-area_background_dark),.15) !important;
+}
+
+.ipsQuote_citation, .ipsSpoiler_header {
+    background: rgb( var(--theme-header) ) !important;
+}
+
+.cyberdevil_spoiler {
+	border-left: 4px solid rgba( var(--theme-area_background_dark),.15) !important;
 }
