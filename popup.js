@@ -6,7 +6,8 @@ const THEMES = {
   'neon': 'Неон Animate',
   'forest': 'Природа Animate', 
   'black': 'Black Animate',
-  'black1': 'Black Default'
+  'black1': 'Black Default',
+  'green': 'Green Default'
 };
 
 const container = document.getElementById('buttons-container');

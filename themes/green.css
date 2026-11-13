@@ -1,0 +1,121 @@
+:root {
+	--custom-reputation: 46, 125, 50; 
+	--custom-reputation_font: 232, 245, 233;
+	
+	--theme-header: 20, 36, 26 !important;            
+	--theme-main_nav_tab: 20, 36, 26 !important;
+	--theme-main_nav: 28, 49, 36 !important;           
+	--theme-area_background: 28, 49, 36 !important;
+	--theme-area_background_dark: 20, 36, 26 !important;
+	--theme-area_background_light: 39, 68, 50 !important; 
+	--theme-area_background_reset: 28, 49, 36 !important;
+	--theme-button_bar: 39, 68, 50 !important;
+	
+	--theme-comment_count:  100, 140, 115 !important;
+	--theme-comment_count_font: 232, 245, 233 !important;
+	--theme-important_button: 28, 49, 36 !important;
+	--theme-link: 165, 214, 167 !important; 
+	--theme-header_text: 232, 245, 233 !important;     
+	--theme-main_nav_font: 215, 230, 215 !important;
+	--theme-main_nav_tab_font: 232, 245, 233 !important;
+	--theme-mentions: 129, 199, 132 !important; 
+	--theme-tab_background: 39, 68, 50 !important;
+	--theme-tag: 46, 79, 58 !important;
+	--theme-tag_font: 215, 230, 215 !important;
+	--theme-text_color: 232, 245, 233 !important;
+	--theme-text_dark: 200, 215, 200 !important;
+	--theme-text_light: 240, 248, 240 !important;
+	
+	--theme-widget_title_font: 232, 245, 233 !important;
+	--theme-widget_title_bar: 20, 36, 26 !important;
+	--theme-section_title: 28, 49, 36 !important;
+	--theme-section_title_font: 232, 245, 233 !important;
+	
+	--theme-selected: 50, 90, 65 !important;
+	--theme-page_background: 20, 36, 26 !important;
+	--theme-post_highlight: 39, 68, 50 !important;
+	--theme-footer_text: 165, 214, 167 !important;
+	
+	--theme-primary_button: 46, 125, 50 !important;
+	--theme-primary_button_font: 255, 255, 255 !important;
+	--theme-light_button: 39, 68, 50 !important;
+	--theme-light_button_font: 215, 230, 215 !important;
+	--theme-link_button: 129, 199, 132 !important;
+	--theme-link_hover: 198, 235, 200 !important;
+	--theme-timeline_color: 76, 110, 85 !important;
+	--theme-very_light_button: 46, 79, 58 !important;
+	--theme-very_light_button_font: 232, 245, 233 !important;
+	--theme-normal_button: 20, 36, 26 !important;
+
+	--theme-post_highlight_border: 197, 160, 89 !important;
+	--theme-item_status: 130, 25, 30 !important;
+	--theme-pagination_active: 76, 110, 85 !important;
+	--theme-profile_header: 20, 36, 26 !important;
+	
+	--positive-dark: #2e7d32 !important;
+	--positive-light: #e8f5e9 !important;
+}
+
+#ipsLayout_body {
+	background: rgb(var(--theme-main_nav_tab)) !important;
+}
+
+#elSearch {
+	background: rgb(var(--theme-header)) !important;
+	color: rgb(var(--theme-text_light)) !important;
+}
+
+.cProfileRepScore_positive {
+	background: rgb(var(--custom-reputation)) !important;
+	color: rgb(var(--custom-reputation_font)) !important;
+}
+
+.cProfileSidebarBlock,
+.cProfileRepScore {
+	border-radius: 4px !important;	
+}
+
+.ipsApp .cke_inner {
+	background-color: rgb(60, 85, 70) !important;
+}
+
+.ipsApp .cke_top {
+    background-color: #88ab8a !important;
+}
+
+#exButtons {
+	font-weight: bold; 
+	background: transparent; 
+	color: rgb(var(--theme-footer_text)); 
+	border: solid 2px rgb(var(--theme-footer_text)); 
+	cursor: pointer;
+	padding: 7px;
+	border-radius: 10px;
+}
+
+#alertWidget {
+	background: rgb(var(--theme-main_nav)); 
+	color: rgb(var(--theme-text_color));
+	box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+	border: 1px solid rgb(var(--theme-very_light_button));
+}
+
+.ipsApp .ipsButton_overlaid {
+    background: rgba(0,128,0,0.5) !important;
+    opacity: 0.6;
+    color: #fff;
+    z-index: 2;
+}
+
+.ipsQuote, .ipsSpoiler, .ipsStyle_spoiler {
+    background: rgb( var(--theme-area_background_light) ) !important;
+    border: 4px solid rgba( var(--theme-area_background_dark),.15) !important;
+}
+
+.ipsQuote_citation, .ipsSpoiler_header {
+    background: rgb( var(--theme-area_background_dark) ) !important;
+}
+
+.cyberdevil_spoiler {
+	border-left: 4px solid rgba( var(--theme-area_background_dark),.15) !important;
+}

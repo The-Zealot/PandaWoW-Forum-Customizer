@@ -23,7 +23,7 @@
 > Выбрать её можно, прокрутив страницу в самый низ, нажать на кнопку "Тема" и в появившемся контекстном меню выбрать нужный вариант.
 
 <p align="center">
-  <img src="images/repo/guide/selectTheme.png" alt="Image.Guide.SelectTheme">
+	<img src="images/repo/guide/selectTheme.png" alt="Image.Guide.SelectTheme">
 </p>
 
 ### Дополнительная функциональность
@@ -33,8 +33,14 @@
 Примеры кастомных тем:
 
 <p align="center">
-  <img src="images/repo/preview/example_neon.jpg" alt="Image.Preview.Neon"><br><br>
-  <img src="images/repo/preview/example_black.jpg" alt="Image.Preview.Black"><br><br>
-  <img src="images/repo/preview/example_nature.jpg" alt="Image.Preview.Nature"><br><br>
-  <img src="images/repo/preview/example_horde.jpg" alt="Image.Preview.Horde">
+	<b>Animate</b><br><br>
+	<img src="images/repo/preview/example_neon.jpg" alt="Image.Preview.Neon"><br><br>
+	<img src="images/repo/preview/example_nature.jpg" alt="Image.Preview.Nature"><br><br>
+	<img src="images/repo/preview/example_horde.jpg" alt="Image.Preview.Horde">
+</p>
+
+<p align="center">
+	<b>Default</b><br><br>
+	<img src="images/repo/preview/example_black.jpg" alt="Image.Preview.Black"><br><br>
+	<img src="images/repo/preview/example_green.jpg" alt="Image.Preview.Green">
 </p>
