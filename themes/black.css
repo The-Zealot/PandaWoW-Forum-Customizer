@@ -27,6 +27,7 @@
 	--theme-pagination_active: 24, 24, 26 !important; 
 	--theme-tag: 10, 10, 12 !important;
 	--theme-mentions: 45, 45, 48 !important;
+	--theme-normal_button: 45, 45, 48 !important;
 }
 
 .focus-nav-bar {

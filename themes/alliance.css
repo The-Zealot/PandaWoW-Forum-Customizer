@@ -33,6 +33,7 @@
 	--theme-text_light: 75, 100, 140 !important;
 	--theme-post_highlight: 142, 39, 39 !important;
     --theme-post_highlight_border: 245, 36, 36 !important;
+	--theme-normal_button: 30, 75, 155 !important;
 	
 	
 	--trophy-first--background: rgb(var(--theme-important_button)) !important; 
