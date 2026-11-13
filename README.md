@@ -14,9 +14,17 @@
 Нажимаем на иконку расширений в панели браузера (для Google Chrome и Microsoft Edge - пазл в правом верхнем углу, для Opera - куб и т.д.).
 Выбираем наше расширение PandaWoW Forum Customizer. В появившейся форме выбираем любую понравившеюся тему. 
 
+| Google Chrome | Opera |
+| :---: | :---: |
+| ![Image.Guide.Extensions](images/repo/guide/extensionsChrome.jpg) | ![Image.Guide.Extensions](images/repo/guide/extensionsOpera.jpg) |
+
 > Важно!!!
 > Темы делятся на 2 типа Animate и Default. Чтобы они работали корректно, у Вас должна быть выбрана одноименная тема форума.
 > Выбрать её можно, прокрутив страницу в самый низ, нажать на кнопку "Тема" и в появившемся контекстном меню выбрать нужный вариант.
+
+<p align="center">
+  <img src="images/repo/guide/selectTheme.png" alt="Image.Guide.SelectTheme">
+</p>
 
 ### Дополнительная функциональность
 
@@ -24,16 +32,9 @@
 
 Примеры кастомных тем:
 
-![Image.Neon1](https://i.ibb.co/DPTtswNb/neon1.jpg)
-
-![Image.Black4](https://i.ibb.co/G4yQfKGc/black4.jpg)
-
-![Image.Nature2](https://i.ibb.co/mng17D9/nature2.jpg)
-
-![Image.Horde1](https://i.ibb.co/7xPMYbkp/horde1.jpg)
-
-
-
-
-
-
+<p align="center">
+  <img src="images/repo/preview/example_neon.jpg" alt="Image.Preview.Neon"><br><br>
+  <img src="images/repo/preview/example_black.jpg" alt="Image.Preview.Black"><br><br>
+  <img src="images/repo/preview/example_nature.jpg" alt="Image.Preview.Nature"><br><br>
+  <img src="images/repo/preview/example_horde.jpg" alt="Image.Preview.Horde">
+</p>
